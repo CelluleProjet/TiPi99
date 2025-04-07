@@ -1,5 +1,5 @@
 # TiPi99
-Graphical user interface to configure the ![Autonomous Temperature Pressure Sensor TP99](https://github.com/CelluleProjet/TiPi99/edit/main/README.md#about-the-project) and download the registered data.
+Graphical user interface to configure the ![Autonomous Temperature Pressure Sensor TP99](https://github.com/CelluleProjet/TiPi99#about-the-project) and download the registered data.
 
 ## Install
 
@@ -47,7 +47,7 @@ conda env list
 
 ## 'Serial' Tab: Starting page
 > [!Caution]
-> The _TP99 device_ once turned on automatically searches for a serial connection for 5 seconds during which the device LED flashes. If the serial connection is not found, the device enters the 'logger' mode and starts recording new data, **overwriting** the old data in memory. For this reason it is necessary to start the search of the _TP99 device_ **before** connecting it by USB cable.
+> The _TP99 device_ once turned on automatically searches for a serial connection for 5 seconds during which the device LED flashes. If the serial connection is not found, the device enters the 'logger' mode and starts recording new data, **overwriting** the old data in memory. For this reason, it is necessary to start the search of the _TP99 device_ **before** connecting it by USB cable.
 
 ![Tab_1_Serial_Connect](https://github.com/user-attachments/assets/4ed5ae32-a4a6-447d-84db-d9b1866fce52)
 
@@ -56,7 +56,7 @@ conda env list
     - starts the automatic search for the _TP99 device_ and wait for the USB cable connection.  
 
   - **Update Port List**
-    - for debug purpose, it update and show all the COM ports available in the pc. By clicking on the name of the displayed COM you can see the details.  
+    - for debug purpose, it updates and show all the COM ports available in the pc. By clicking on the name of the displayed COM you can see the details.  
 
 ## 'Serial' Tab: Device Found
 
@@ -97,7 +97,7 @@ Calculator to estimate the optimal log times to use for a measurement.
 ![Tab_2_Calc](https://github.com/user-attachments/assets/4e688418-46c6-4cfb-ae38-6e4a644c24ab)
 
 
-The "start" and "Stop" tabs allow you to choose the start and end dates of the measurement on the calendars. The hour, minutes and seconds can be further added in the appropriate input areas.
+The "Start" and "Stop" tabs allow you to choose the start and end dates of the measurement on the calendars. The hour, minutes and seconds can be further added in the appropriate input areas.
   - **Calc**
     - estimate the two closest log times
 
@@ -106,7 +106,7 @@ The two log times are displayed with their corresponding end dates next to them.
 ## 'Data' Tab
 
 Displays loaded data (from device memory or file) in table form.  
-The starting date of the Date column can be changed by the [Set new starting date](https://github.com/CelluleProjet/TiPi99/edit/main/README.md#set-or-change-the-initial-measurements-date) in the 'Plot T' Tab.
+The starting date of the Date column can be changed by the [Set new starting date](https://github.com/CelluleProjet/TiPi99#set-or-change-the-initial-measurements-date) in the 'Plot T' Tab.
 
 ![Tab_3_Data](https://github.com/user-attachments/assets/7b0d06ce-2799-4370-b7b3-0997ebeb015d)
 
@@ -119,13 +119,13 @@ Displays the temperature and shows the plot commands relative to the time axis.
 
 
 ### X scale available options
-  - **Elapsed**: elaposed time in seconds / minutes / hours or days
+  - **Elapsed**: elapsed time in seconds / minutes / hours or days
   - **Date**: dates reported in the Table
 
   
 ### Set or change the initial measurements date
   - **Date**: it allows the selection of the measurement start date using a calendar
-  - **Epoch**: it allows the selection of the measurement start date using the [unix epoch time](https://www.epochconverter.com/) (number of seconds elapsed since January 1, 1970).
+  - **Epoch**: it allows the selection of the measurement start date using the [Unix epoch time](https://www.epochconverter.com/) (number of seconds elapsed since January 1, 1970).
   - **Set new starting date**: Updates the Date columns in the 'Data' tab and the X axis of all the plots
 
 
