@@ -1,0 +1,35 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Laboratory Instrumentation",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0003-2867-1909",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "yiuri.garino@cnrs.fr",
+            "familyName": "GARINO",
+            "givenName": "Yiuri"
+        }
+    ],
+    "codeRepository": "https://github.com/CelluleProjet/TiPi99",
+    "dateCreated": "2024-01-01",
+    "dateModified": "2025-04-07",
+    "datePublished": "2025-04-07",
+    "description": "Graphical user interface to configure the Autonomous Temperature Pressure Sensor TP99 and download the registered data.",
+    "downloadUrl": "https://github.com/CelluleProjet/TiPi99",
+    "keywords": [
+        "Laboratory Instrumentation",
+        "pressure temperature sensor",
+        "deep sea sensor"
+    ],
+    "license": "https://spdx.org/licenses/GPL-3.0-or-later",
+    "name": "TiPi99",
+    "programmingLanguage": "Python 3",
+    "releaseNotes": "First Release",
+    "version": "0.0.2",
+    "developmentStatus": "active"
+}
